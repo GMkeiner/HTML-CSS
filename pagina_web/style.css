@@ -1,0 +1,364 @@
+body{
+    background-color: rgb(22, 22, 22);
+    margin: auto;
+    /* background-attachment: fixed;
+    height: 100rem; */
+}
+header{
+    padding-bottom: 2px;
+    background-color: rgb(60, 131, 83);
+}
+header h1{
+    font-size: 1.5em;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    color: aliceblue;
+    text-align: center;
+}
+
+header img{
+    margin-left: 48%;
+}
+nav {
+    padding: 2px;
+    background-color: rgb(60, 131, 83);
+    background-clip: content-box;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    margin: 50px;
+    margin-right: 115px;
+    /* margin-left: 140px; */
+    text-align: center;
+    color: aliceblue;
+}
+div{
+    background-color: rgb(59, 59, 59);
+    height: 100px;
+    padding-bottom: 75px;
+}
+
+a{
+    display: inline-block;
+    text-align: center;
+    color: aliceblue;
+    margin: 10px;
+    padding-top: 80px;
+    border-radius: 4px;
+    background-color: rgb(60, 131, 83);
+    width: 100px;
+    height: 30px;
+    text-decoration: none;
+    text-transform: none;
+}
+a:hover{
+    background-color: rgb(100, 100, 100);
+}
+div img{
+    position: absolute;
+    /* filter: invert(); */
+    margin-left: 1.4em;
+}
+.pencil{
+    padding: 10px;
+    height: 60px;
+}
+.phone{
+    padding: 10px;
+    margin-left: 15px;
+}
+p{
+    font-family: monospace;
+    color: black;
+}
+.subir{
+    color: aliceblue;
+    margin-left: 5px;
+}
+.subir2{
+    color: aliceblue;
+    margin-right: 8px;
+}
+.subir3{
+    color: aliceblue;
+    margin-right: 10px;
+}
+section .segundo{
+    display: inline-block;
+    margin-left: 155px;
+    width: 250px;
+    height: 250px;
+}
+/* ---------------------------------------------------------------------------------------- */
+main{
+    position: absolute;
+}
+main img{
+    display: inline-block;
+    width: 400px;
+    height: 400px;
+    margin-left: 180px;
+    color: aliceblue;
+    border: 1px dotted white;
+}
+
+aside{
+
+    /* --------------------------------------------------------- */
+    border: 1px dotted white;
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    margin-left: 764px;
+    margin-top: 400px;
+}
+.grande{
+    font-size: 27px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+    text-align: center;
+}
+.grande1{
+    font-size: 27px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+    text-align: center;
+}
+.grande2{
+    font-size: 27px;
+    padding: 23px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+    margin: auto;
+    text-align: center;
+}
+.grande4{
+    margin: auto;
+}
+h2{
+    color: aliceblue;
+    padding-left: 10px;
+    font-size: 1.8em;
+}
+.segundo2{
+    position: relative;
+    bottom: 50px;
+    width: 100px;
+    height: 200px;
+    margin-top: 100px;
+    right: 585px;
+}
+.segundo3{
+    display: inline-block;
+    padding-bottom: 80px;
+    margin-left: 73em;
+}
+footer{
+    padding-top: 50%;
+}
+.autor{
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    padding-top: 100px;
+    font-size: 3em;
+    background-color: rgb(60, 131, 83);
+    color: aliceblue;
+}
+
+/* ------------------------------------------------------------------------------------------------- */
+
+
+/* --------------------------Servicios */
+.div-1{
+    background: none;
+}
+.clase-h1{
+    font-family: sans-serif;
+    margin-left: 75px;
+    color: aliceblue;
+}
+.div-2{
+    background: none;
+}
+.clase-h2{
+    margin-left: 80px;
+    color: aliceblue;
+}
+.clase-h3{
+    position: absolute;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: rgb(60, 131, 83);
+    margin-left: 150px;
+    font-size: 15px;
+    font-family: tahoma;
+    color: aliceblue;
+}
+.clase-h4{
+    position: absolute;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: rgb(60, 131, 83);
+    margin-top: 32px;
+    margin-left: 150px;
+    font-size: 15px;
+    font-family: tahoma;
+    color: aliceblue;
+}
+.clase-5{
+    font-size: 1em;
+    color: aliceblue;
+    margin: 190px;
+    margin-top: 29em;
+}
+#texto{
+    font-family: tahoma;
+    font-size: 1.5em;
+    margin-left: 75px;
+    color: aliceblue;
+}
+
+#columna{
+    columns: 3;
+    color: aliceblue;
+    column-rule: 2px groove white;
+    margin-left: 80px;
+    list-style: none;
+    background-color: rgb(59, 59, 59);
+}
+#columna2{
+    columns: 3;
+    color: aliceblue;
+    column-rule: 2px groove white;
+    margin-left: 80px;
+    background-color: rgb(59, 59, 59);
+    list-style: none;
+}
+#columna3{
+    columns: 3;
+    color: aliceblue;
+    column-rule: 2px groove white;
+    margin-left: 80px;
+    background-color: rgb(59, 59, 59);
+    list-style: none;
+}
+li{
+    font-size: 20px;
+    margin-right: 600px;
+}
+iframe{
+    position: absolute;
+    margin-left: 94.5em;
+}
+form{
+    margin-left: 125px;
+    color: aliceblue;
+    margin-right: 55em;
+    margin-top: 60px;
+    width: 360px;
+    height: 130px;
+    border-radius: 10px;
+    background-color: rgb(39, 61, 46);
+}
+
+#form-2{
+    width: 360px;
+    height: 450px;
+}
+#input-1{
+    padding: 8px;
+    margin: 18px;
+    width: 280px;
+    margin-left: 30px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    background-color: rgb(60, 131, 83);
+}
+#input-2{
+    padding: 8px;
+    width: 280px;
+    margin-left: 30px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    background-color: rgb(60, 131, 83);
+}
+#input-4{
+    padding: 5px;
+    padding-top: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 20px;
+    width: 280px;
+    height: 100px;
+    margin-left: 23px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    background-color: rgb(60, 131, 83);   
+}
+#input-9{
+    position: absolute;
+    margin-left: 20px;
+    width: 75px;
+    margin-top: 90px;
+    border-radius: 3px;
+    border: 1px solid grey;
+    background-color: rgb(60, 131, 83);
+}
+#buttom{
+    position: relative;
+    width: 75px;
+    height: 40px;
+    color: aliceblue;
+    background-color: rgb(60, 131, 83);
+    border-radius: 10px;
+    margin: 150px;
+    margin-left: 140px;
+}
+#input-5{
+    margin-left: 28px;
+}
+#input-6{
+    margin-left: 28px;
+}
+#input-7{
+    margin-left: 28px;
+}
+.input-8{
+    margin-left: 28px;
+}
+
+#input-1:hover{
+    background-color: rgb(100, 100, 100);
+}
+#input-2:hover{
+    background-color: rgb(100, 100, 100);
+}
+
+#input-1::placeholder, #input-2::placeholder{
+    color: aliceblue;
+}
+
+#input-4::placeholder{
+    text-align: left;
+    color: aliceblue;
+}
+#input-4:hover{
+    background-color: grey;
+}
+/* ---------------------------------------------------------------------------- */
+
+#Estado{
+    color: aliceblue;
+    margin-left: 30px;
+}
+#mapa{
+    filter: blur(6px);
+    transition: 1s ease;
+    margin-left: 32%;
+    margin-right: 32%;
+}
+#mapa:hover{
+    filter: none;
+}

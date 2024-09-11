@@ -1,0 +1,70 @@
+div{
+    color: beige;
+    font-family: monospace;
+}
+.caja0{
+    position: fixed;
+    padding-top: 30px;
+    right: 50%;
+    left: 25%;
+    width: 700px;
+    height: 605px;
+    background-color: grey; 
+}
+.caja1 {
+    position: fixed;
+    top: 0;
+    text-align: center;
+    left: 0;
+    border: 2px solid black;
+    font-size: 20px;
+    margin: 10px;
+    padding: 50px;
+    width: 50px ; 
+    height: 20px; 
+    background-color: orange; 
+}
+.caja2 {
+    position: fixed;
+    text-align: center;
+    padding: 50px;
+    margin: 10px;
+    top: 0;
+    font-size: 20px;
+    border: 2px solid black;
+    margin-right: 10px;
+    right: 0;
+    width: 50px; 
+    height: 20px; 
+    background-color: blue; 
+}
+
+.caja3 {
+    position: fixed;
+    text-align: center;
+    margin-bottom: 10px;
+    padding: 50px;
+    bottom: 0;
+    font-size: 20px;
+    margin-left: 10px;
+    border: 2px solid black;
+    left: 0;
+    width: 50px; 
+    height: 20px;
+    background-color: green; 
+}
+
+.caja4 {
+    position: fixed;
+    margin-bottom: 10px;
+    text-align: center;
+    margin-right: 10px;
+    padding: 50px;
+    font-size: 20px;
+    border: 2px solid black;
+    bottom: 0;
+    right: 0;
+    width: 50px; 
+    height: 20px; 
+    background-color: red;
+}

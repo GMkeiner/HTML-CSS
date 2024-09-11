@@ -1,0 +1,40 @@
+h1{
+    font-size: 3em;
+}
+
+section{
+    display: inline-block;
+    box-shadow: 2px 4px 30px;
+    border-radius: 20px;
+    padding: 30px;
+    width: 200px;
+    margin: 30px;
+}
+
+
+.menu2{
+    position: absolute;
+}
+.menu3{
+    position: relative;
+    left: 300px;
+    width: 300px;
+    bottom: 200px;
+}
+
+.icon::marker{
+    color: red;
+}
+.icon2::marker{
+    color: red;
+}
+.icon3::marker{
+    color: red;
+}
+.icon4::marker{
+    color: red;
+}
+
+
+
+

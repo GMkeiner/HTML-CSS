@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="principal">
+        <img src="img/foco.png" alt="">
+        <h1>
+            Dise-o web sede tic
+        </h1>
+    </header>
+    <nav class="segundo">
+        <h1>
+            html5-css3-javascript
+        </h1>
+        <div>
+            <img src="img/user.png" alt="">
+            <a href="index.html">       
+                <p class="subir">Quienes Somos</p>    
+            </a>
+            <img   class="pencil" src="img/pencil-linea.png" alt="">
+            <a  href="Servicios.html">
+                <p class="subir2">Servicios</p>
+            </a>
+            <img class="phone" src="img/phone.png" alt="">
+            <a href="Contacto.html">
+                <p class="subir3">Contacto</p>
+            </a>
+        </div>
+    </nav>
+    <div class="div-2">
+        <h1 class="clase-h2">
+            Contacto:
+        </h1>
+        <h1 class="clase-h3">
+            Datos Personales
+        </h1>
+        <iframe id="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3916.545621160661!2d-74.80065412416!3d10.99762895507292!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef42d0b893fd6e9%3A0xb24654761168258f!2sSENA%20-%20Sede%20TIC!5e0!3m2!1ses-419!2sus!4v1709762097472!5m2!1ses-419!2sus" width="1000" height="670" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <form action="enviarmail.php" method="post" >
+            <input type="text" id="input-1" placeholder="Nombre">
+            <input type="email" id="input-2" placeholder="Correo Electronico">
+        </form>
+        <h1 class="clase-h4">
+            Datos Del Proyecto
+        </h1>
+        <form action="enviarmail.php" method="post" id="form-2">
+            <input id="input-4" placeholder="Breve Descripcion Del Proyecto">
+            <p id="Estado">Estado real del Proyecto</p>
+            <br />
+            <input id="input-5" type="radio"/>
+            En fase de planteamiento de
+            <br/>
+            <input id="input-6" type="radio"/>
+            En fase de planificacion
+            <br/>
+            <input id="input-7"  type="radio"/>
+            En la expulsion
+            <br/>
+            <input class="input-8" type="radio"/>
+            Ya finalizo
+            <input id="input-9" type="number">
+            <input id="buttom" type="submit" value="Enviar">
+        </form>
+    </div>
+
+    <h5 class="clase-5">Presupuesto aproximado (en $COL)</h5>
+    <footer>
+        <p class="autor">Derechos de autor - ADSO9 Tic diseñoweb</p>
+    </foote>
+</body>
+</html>
